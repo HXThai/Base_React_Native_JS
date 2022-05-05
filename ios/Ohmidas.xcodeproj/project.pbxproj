@@ -1,0 +1,856 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* OhmidasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* OhmidasTests.m */; };
+		020FBDF100B24735B629442D /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8021FCA2CB2043A4A335513A /* Montserrat-Italic.ttf */; };
+		02FC26204EC64C09A99BFD12 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 550BE1183BF541499EEC8307 /* Poppins-Medium.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		149529C81DD04FFDBCB7AF53 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B64F39B0C1C4CF8BD6186FA /* Montserrat-MediumItalic.ttf */; };
+		17A904790BD74D0984385F19 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAB9E89B53D447BD97AD8B71 /* Poppins-Light.ttf */; };
+		191581AE27384D9C87E82146 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39400028C6834BEF9673B391 /* Montserrat-SemiBold.ttf */; };
+		1FCA3B5917F54567BEA722FB /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F5E0A8C7D3F498DAB5E55CE /* Montserrat-Bold.ttf */; };
+		2703E258C08F442080D81C21 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31F5B9F659A241CEA0F40720 /* Poppins-Thin.ttf */; };
+		29E02697597D43F6A7C9CD0F /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A651532E49447E6B610A452 /* Montserrat-BlackItalic.ttf */; };
+		301E149B68366B0E13AE8A5D /* libPods-Ohmidas-OhmidasTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1207CF9BA6AE26DFC3CB22ED /* libPods-Ohmidas-OhmidasTests.a */; };
+		30E2DBD71D394835BD21E1FD /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35B537AA409A432FA9FB94C0 /* Montserrat-ExtraLight.ttf */; };
+		3302E7F90A2D47808EFED665 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1F6ABBAF4954F0C892D86DB /* Montserrat-Light.ttf */; };
+		3B9B2235AAC64D67B7B66DCA /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC3A930273064FE9A6AE4A8F /* Poppins-MediumItalic.ttf */; };
+		3BB1707841794BA7903BD0E5 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B81F376BCF854B4F9CC0CDE3 /* Poppins-LightItalic.ttf */; };
+		3F44DB329A5742F09FF7CDDB /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1BE8EA8D773418CB430E934 /* Montserrat-Regular.ttf */; };
+		46E398FFAC2841D6A904BCFA /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F11A1CF5D42946AB982DD138 /* Poppins-Italic.ttf */; };
+		4A4FD78A581D46919B2ED0B3 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD2A2DDE50E74571A49F91FA /* Montserrat-BoldItalic.ttf */; };
+		59BB8AF3B2514B2D9DE82D56 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B91DAFD151DF43A29F520BC6 /* Poppins-ExtraLight.ttf */; };
+		5E00E72EC00B4F93A5679E9D /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A827FE12748F44B184D2D60E /* Montserrat-Black.ttf */; };
+		62116C3C99EE4DE090DE5C7C /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49E84B84054C43B2A6B8C58A /* Poppins-SemiBold.ttf */; };
+		64FB59A2BCF94A68AF66DF88 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 197A3EF4332E400281177E0C /* Poppins-ExtraBold.ttf */; };
+		7002A5946C3E402BA90A941B /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABE4BA4AD00A47E497F25096 /* Montserrat-LightItalic.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8B35BA966C60412D81635EF5 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E33ADD6277844A8B96B40ABF /* Poppins-ExtraLightItalic.ttf */; };
+		907DC8D422074E5CAA94DB7C /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4191636B99B64F16BC321B05 /* Poppins-ExtraBoldItalic.ttf */; };
+		9AA18DF7C4A1499F8D7E23AF /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 762E076C26FD4E42B74AA11F /* Montserrat-ExtraLightItalic.ttf */; };
+		9B65E7BE5A20431FA4559394 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD950A4CD4DA4DD189C17B30 /* Poppins-SemiBoldItalic.ttf */; };
+		AAA48A21280D7B7200E6B6D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAA48A20280D7B7200E6B6D2 /* GoogleService-Info.plist */; };
+		ABC80577071F4011AA7C6912 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D6DC18B83E840FBB96EE6A6 /* Montserrat-ExtraBold.ttf */; };
+		AEDEF74EB3484308BD1927DB /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D29FE4E6C34C411D9BE85716 /* Montserrat-ExtraBoldItalic.ttf */; };
+		B29BA6DE9AAD564041CE1841 /* libPods-Ohmidas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 391A2E0DD8516B986CCB6AE4 /* libPods-Ohmidas.a */; };
+		B39B1A6953DB4702922862AC /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65FEEE4DA59846F1823DF9D8 /* Poppins-BoldItalic.ttf */; };
+		B5AEC817DC20463FB9F8E992 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40BB81CBD4FF49A585289643 /* Poppins-Black.ttf */; };
+		B966F7EFE5F24188A8CD565A /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 860057EB08124C94BC786452 /* Montserrat-Medium.ttf */; };
+		BBB040FDEA3947D5939EB1B6 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E357C9AF3FE4461FAA3F4480 /* Montserrat-Thin.ttf */; };
+		CAC544A41344468587DCFAAF /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 303A99C89A4F460DA1D7B722 /* Poppins-Bold.ttf */; };
+		CBB09E960AFD48B79F86394C /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7122B9337EBC451497FD5740 /* Montserrat-ThinItalic.ttf */; };
+		DFCEE304F3494BA89D837F63 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A55B0EBB3A17478EA6DFE2F3 /* Poppins-BlackItalic.ttf */; };
+		E5518AB0103745AEBCCCAD2C /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 404B3FE42F4140169908E364 /* Poppins-Regular.ttf */; };
+		F78D89E0A19242A39FB2B3D3 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52C43C3AB09E4725BE8940C5 /* Poppins-ThinItalic.ttf */; };
+		FEC8058673384DCEA1489E86 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F49C9E1A70A3433E8235AA4F /* Montserrat-SemiBoldItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Ohmidas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* OhmidasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OhmidasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* OhmidasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OhmidasTests.m; sourceTree = "<group>"; };
+		1207CF9BA6AE26DFC3CB22ED /* libPods-Ohmidas-OhmidasTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ohmidas-OhmidasTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* Ohmidas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ohmidas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Ohmidas/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Ohmidas/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Ohmidas/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Ohmidas/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Ohmidas/main.m; sourceTree = "<group>"; };
+		197A3EF4332E400281177E0C /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBold.ttf"; path = "../src/assets/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		1F5E0A8C7D3F498DAB5E55CE /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../src/assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		2D6DC18B83E840FBB96EE6A6 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBold.ttf"; path = "../src/assets/fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		2E28139405F20897AC7E51C5 /* Pods-Ohmidas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ohmidas.debug.xcconfig"; path = "Target Support Files/Pods-Ohmidas/Pods-Ohmidas.debug.xcconfig"; sourceTree = "<group>"; };
+		303A99C89A4F460DA1D7B722 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		31F5B9F659A241CEA0F40720 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Thin.ttf"; path = "../src/assets/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		35B537AA409A432FA9FB94C0 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLight.ttf"; path = "../src/assets/fonts/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		391A2E0DD8516B986CCB6AE4 /* libPods-Ohmidas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ohmidas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39400028C6834BEF9673B391 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../src/assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		3A651532E49447E6B610A452 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BlackItalic.ttf"; path = "../src/assets/fonts/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		3BFFBE64F74EFD88E516E942 /* Pods-Ohmidas-OhmidasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ohmidas-OhmidasTests.release.xcconfig"; path = "Target Support Files/Pods-Ohmidas-OhmidasTests/Pods-Ohmidas-OhmidasTests.release.xcconfig"; sourceTree = "<group>"; };
+		404B3FE42F4140169908E364 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		40BB81CBD4FF49A585289643 /* Poppins-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Black.ttf"; path = "../src/assets/fonts/Poppins-Black.ttf"; sourceTree = "<group>"; };
+		4191636B99B64F16BC321B05 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		49E84B84054C43B2A6B8C58A /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		52C43C3AB09E4725BE8940C5 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ThinItalic.ttf"; path = "../src/assets/fonts/Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		550BE1183BF541499EEC8307 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		65FEEE4DA59846F1823DF9D8 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BoldItalic.ttf"; path = "../src/assets/fonts/Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6B64F39B0C1C4CF8BD6186FA /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-MediumItalic.ttf"; path = "../src/assets/fonts/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		7122B9337EBC451497FD5740 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ThinItalic.ttf"; path = "../src/assets/fonts/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		762E076C26FD4E42B74AA11F /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		7A3EFD6915EDD9A89B82AA63 /* Pods-Ohmidas-OhmidasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ohmidas-OhmidasTests.debug.xcconfig"; path = "Target Support Files/Pods-Ohmidas-OhmidasTests/Pods-Ohmidas-OhmidasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8021FCA2CB2043A4A335513A /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Italic.ttf"; path = "../src/assets/fonts/Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Ohmidas/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		860057EB08124C94BC786452 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../src/assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		A55B0EBB3A17478EA6DFE2F3 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BlackItalic.ttf"; path = "../src/assets/fonts/Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A827FE12748F44B184D2D60E /* Montserrat-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Black.ttf"; path = "../src/assets/fonts/Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		AAA48A20280D7B7200E6B6D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Ohmidas/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ABE4BA4AD00A47E497F25096 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-LightItalic.ttf"; path = "../src/assets/fonts/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		AD950A4CD4DA4DD189C17B30 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		B1F6ABBAF4954F0C892D86DB /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../src/assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		B81F376BCF854B4F9CC0CDE3 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-LightItalic.ttf"; path = "../src/assets/fonts/Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		B91DAFD151DF43A29F520BC6 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLight.ttf"; path = "../src/assets/fonts/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		CC3A930273064FE9A6AE4A8F /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-MediumItalic.ttf"; path = "../src/assets/fonts/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		D29FE4E6C34C411D9BE85716 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		DAB9E89B53D447BD97AD8B71 /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../src/assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		DDFCCA710A2CE8363CDD12CE /* Pods-Ohmidas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ohmidas.release.xcconfig"; path = "Target Support Files/Pods-Ohmidas/Pods-Ohmidas.release.xcconfig"; sourceTree = "<group>"; };
+		E1BE8EA8D773418CB430E934 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../src/assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		E33ADD6277844A8B96B40ABF /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		E357C9AF3FE4461FAA3F4480 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../src/assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F11A1CF5D42946AB982DD138 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Italic.ttf"; path = "../src/assets/fonts/Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		F49C9E1A70A3433E8235AA4F /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		FD2A2DDE50E74571A49F91FA /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BoldItalic.ttf"; path = "../src/assets/fonts/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301E149B68366B0E13AE8A5D /* libPods-Ohmidas-OhmidasTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29BA6DE9AAD564041CE1841 /* libPods-Ohmidas.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* OhmidasTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* OhmidasTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = OhmidasTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Ohmidas */ = {
+			isa = PBXGroup;
+			children = (
+				AAA48A20280D7B7200E6B6D2 /* GoogleService-Info.plist */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = Ohmidas;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				391A2E0DD8516B986CCB6AE4 /* libPods-Ohmidas.a */,
+				1207CF9BA6AE26DFC3CB22ED /* libPods-Ohmidas-OhmidasTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B1FB3C9EE583EB223AC2FA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E28139405F20897AC7E51C5 /* Pods-Ohmidas.debug.xcconfig */,
+				DDFCCA710A2CE8363CDD12CE /* Pods-Ohmidas.release.xcconfig */,
+				7A3EFD6915EDD9A89B82AA63 /* Pods-Ohmidas-OhmidasTests.debug.xcconfig */,
+				3BFFBE64F74EFD88E516E942 /* Pods-Ohmidas-OhmidasTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		68DDAA84D82743709CDA8AA4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A827FE12748F44B184D2D60E /* Montserrat-Black.ttf */,
+				3A651532E49447E6B610A452 /* Montserrat-BlackItalic.ttf */,
+				1F5E0A8C7D3F498DAB5E55CE /* Montserrat-Bold.ttf */,
+				FD2A2DDE50E74571A49F91FA /* Montserrat-BoldItalic.ttf */,
+				2D6DC18B83E840FBB96EE6A6 /* Montserrat-ExtraBold.ttf */,
+				D29FE4E6C34C411D9BE85716 /* Montserrat-ExtraBoldItalic.ttf */,
+				35B537AA409A432FA9FB94C0 /* Montserrat-ExtraLight.ttf */,
+				762E076C26FD4E42B74AA11F /* Montserrat-ExtraLightItalic.ttf */,
+				8021FCA2CB2043A4A335513A /* Montserrat-Italic.ttf */,
+				B1F6ABBAF4954F0C892D86DB /* Montserrat-Light.ttf */,
+				ABE4BA4AD00A47E497F25096 /* Montserrat-LightItalic.ttf */,
+				860057EB08124C94BC786452 /* Montserrat-Medium.ttf */,
+				6B64F39B0C1C4CF8BD6186FA /* Montserrat-MediumItalic.ttf */,
+				E1BE8EA8D773418CB430E934 /* Montserrat-Regular.ttf */,
+				39400028C6834BEF9673B391 /* Montserrat-SemiBold.ttf */,
+				F49C9E1A70A3433E8235AA4F /* Montserrat-SemiBoldItalic.ttf */,
+				E357C9AF3FE4461FAA3F4480 /* Montserrat-Thin.ttf */,
+				7122B9337EBC451497FD5740 /* Montserrat-ThinItalic.ttf */,
+				40BB81CBD4FF49A585289643 /* Poppins-Black.ttf */,
+				A55B0EBB3A17478EA6DFE2F3 /* Poppins-BlackItalic.ttf */,
+				303A99C89A4F460DA1D7B722 /* Poppins-Bold.ttf */,
+				65FEEE4DA59846F1823DF9D8 /* Poppins-BoldItalic.ttf */,
+				197A3EF4332E400281177E0C /* Poppins-ExtraBold.ttf */,
+				4191636B99B64F16BC321B05 /* Poppins-ExtraBoldItalic.ttf */,
+				B91DAFD151DF43A29F520BC6 /* Poppins-ExtraLight.ttf */,
+				E33ADD6277844A8B96B40ABF /* Poppins-ExtraLightItalic.ttf */,
+				F11A1CF5D42946AB982DD138 /* Poppins-Italic.ttf */,
+				DAB9E89B53D447BD97AD8B71 /* Poppins-Light.ttf */,
+				B81F376BCF854B4F9CC0CDE3 /* Poppins-LightItalic.ttf */,
+				550BE1183BF541499EEC8307 /* Poppins-Medium.ttf */,
+				CC3A930273064FE9A6AE4A8F /* Poppins-MediumItalic.ttf */,
+				404B3FE42F4140169908E364 /* Poppins-Regular.ttf */,
+				49E84B84054C43B2A6B8C58A /* Poppins-SemiBold.ttf */,
+				AD950A4CD4DA4DD189C17B30 /* Poppins-SemiBoldItalic.ttf */,
+				31F5B9F659A241CEA0F40720 /* Poppins-Thin.ttf */,
+				52C43C3AB09E4725BE8940C5 /* Poppins-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* Ohmidas */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* OhmidasTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				3B1FB3C9EE583EB223AC2FA8 /* Pods */,
+				68DDAA84D82743709CDA8AA4 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Ohmidas.app */,
+				00E356EE1AD99517003FC87E /* OhmidasTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* OhmidasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "OhmidasTests" */;
+			buildPhases = (
+				024408D4AB6F9B8C446179B6 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				FC4DC8B6F8C6AEB97D5B3217 /* [CP] Copy Pods Resources */,
+				E7850AF37F6664E7B1D1C968 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = OhmidasTests;
+			productName = OhmidasTests;
+			productReference = 00E356EE1AD99517003FC87E /* OhmidasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Ohmidas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Ohmidas" */;
+			buildPhases = (
+				65FBB7713953251DA14824A7 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				EFE722D7F284397A4D50AD5F /* [CP] Copy Pods Resources */,
+				3646CC7C1733544D29655E50 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ohmidas;
+			productName = Ohmidas;
+			productReference = 13B07F961A680F5B00A75B9A /* Ohmidas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Ohmidas" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Ohmidas */,
+				00E356ED1AD99517003FC87E /* OhmidasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				5E00E72EC00B4F93A5679E9D /* Montserrat-Black.ttf in Resources */,
+				29E02697597D43F6A7C9CD0F /* Montserrat-BlackItalic.ttf in Resources */,
+				1FCA3B5917F54567BEA722FB /* Montserrat-Bold.ttf in Resources */,
+				4A4FD78A581D46919B2ED0B3 /* Montserrat-BoldItalic.ttf in Resources */,
+				ABC80577071F4011AA7C6912 /* Montserrat-ExtraBold.ttf in Resources */,
+				AEDEF74EB3484308BD1927DB /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				30E2DBD71D394835BD21E1FD /* Montserrat-ExtraLight.ttf in Resources */,
+				9AA18DF7C4A1499F8D7E23AF /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				020FBDF100B24735B629442D /* Montserrat-Italic.ttf in Resources */,
+				3302E7F90A2D47808EFED665 /* Montserrat-Light.ttf in Resources */,
+				7002A5946C3E402BA90A941B /* Montserrat-LightItalic.ttf in Resources */,
+				B966F7EFE5F24188A8CD565A /* Montserrat-Medium.ttf in Resources */,
+				149529C81DD04FFDBCB7AF53 /* Montserrat-MediumItalic.ttf in Resources */,
+				3F44DB329A5742F09FF7CDDB /* Montserrat-Regular.ttf in Resources */,
+				191581AE27384D9C87E82146 /* Montserrat-SemiBold.ttf in Resources */,
+				FEC8058673384DCEA1489E86 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				BBB040FDEA3947D5939EB1B6 /* Montserrat-Thin.ttf in Resources */,
+				CBB09E960AFD48B79F86394C /* Montserrat-ThinItalic.ttf in Resources */,
+				B5AEC817DC20463FB9F8E992 /* Poppins-Black.ttf in Resources */,
+				DFCEE304F3494BA89D837F63 /* Poppins-BlackItalic.ttf in Resources */,
+				CAC544A41344468587DCFAAF /* Poppins-Bold.ttf in Resources */,
+				B39B1A6953DB4702922862AC /* Poppins-BoldItalic.ttf in Resources */,
+				64FB59A2BCF94A68AF66DF88 /* Poppins-ExtraBold.ttf in Resources */,
+				907DC8D422074E5CAA94DB7C /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				AAA48A21280D7B7200E6B6D2 /* GoogleService-Info.plist in Resources */,
+				59BB8AF3B2514B2D9DE82D56 /* Poppins-ExtraLight.ttf in Resources */,
+				8B35BA966C60412D81635EF5 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				46E398FFAC2841D6A904BCFA /* Poppins-Italic.ttf in Resources */,
+				17A904790BD74D0984385F19 /* Poppins-Light.ttf in Resources */,
+				3BB1707841794BA7903BD0E5 /* Poppins-LightItalic.ttf in Resources */,
+				02FC26204EC64C09A99BFD12 /* Poppins-Medium.ttf in Resources */,
+				3B9B2235AAC64D67B7B66DCA /* Poppins-MediumItalic.ttf in Resources */,
+				E5518AB0103745AEBCCCAD2C /* Poppins-Regular.ttf in Resources */,
+				62116C3C99EE4DE090DE5C7C /* Poppins-SemiBold.ttf in Resources */,
+				9B65E7BE5A20431FA4559394 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				2703E258C08F442080D81C21 /* Poppins-Thin.ttf in Resources */,
+				F78D89E0A19242A39FB2B3D3 /* Poppins-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		024408D4AB6F9B8C446179B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ohmidas-OhmidasTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3646CC7C1733544D29655E50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ohmidas/Pods-Ohmidas-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ohmidas/Pods-Ohmidas-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ohmidas/Pods-Ohmidas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65FBB7713953251DA14824A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ohmidas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7850AF37F6664E7B1D1C968 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ohmidas-OhmidasTests/Pods-Ohmidas-OhmidasTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ohmidas-OhmidasTests/Pods-Ohmidas-OhmidasTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ohmidas-OhmidasTests/Pods-Ohmidas-OhmidasTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFE722D7F284397A4D50AD5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ohmidas/Pods-Ohmidas-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ohmidas/Pods-Ohmidas-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ohmidas/Pods-Ohmidas-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC4DC8B6F8C6AEB97D5B3217 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ohmidas-OhmidasTests/Pods-Ohmidas-OhmidasTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ohmidas-OhmidasTests/Pods-Ohmidas-OhmidasTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ohmidas-OhmidasTests/Pods-Ohmidas-OhmidasTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* OhmidasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Ohmidas */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A3EFD6915EDD9A89B82AA63 /* Pods-Ohmidas-OhmidasTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OhmidasTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ohmidas.app/Ohmidas";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BFFBE64F74EFD88E516E942 /* Pods-Ohmidas-OhmidasTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = OhmidasTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ohmidas.app/Ohmidas";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E28139405F20897AC7E51C5 /* Pods-Ohmidas.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = G8RV4C8MV3;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Ohmidas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ohmidas.bmbsoft;
+				PRODUCT_NAME = Ohmidas;
+				PROVISIONING_PROFILE_SPECIFIER = "Ohmidas BMBSoft";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFCCA710A2CE8363CDD12CE /* Pods-Ohmidas.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = G8RV4C8MV3;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Ohmidas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ohmidas.bmbsoft;
+				PRODUCT_NAME = Ohmidas;
+				PROVISIONING_PROFILE_SPECIFIER = "Ohmidas BMBSoft";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/lib/swift",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/lib/swift",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "OhmidasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Ohmidas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Ohmidas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

@@ -1,0 +1,103 @@
+{
+  "content": {
+    "pageIndex": 1,
+    "pageSize": 20,
+    "totalCount": 3,
+    "items": [
+      {
+        "id": "2b8f1a74-12ff-4692-99c5-08da22de9eaa",
+        "type": "Basic",
+        "imagePath": "https://i0.wp.com/n1wireless.co/wp-content/uploads/2019/05/N1-icon-transparent.jpg?fit=971%2C721&ssl=1",
+        "lastLearnedDate": "0001-01-01T00:00:00",
+        "learnedTime": "00:00:00",
+        "courseTranslations": [
+          {
+            "language": {
+              "code": "vi",
+              "name": "Vietnamese"
+            },
+            "name": "Basic - N1",
+            "description": "Cơ bản des fdngjfdn gkjf dgdfkjhgnfd gkdfkg"
+          },
+          {
+            "language": {
+              "code": "en",
+              "name": "English"
+            },
+            "name": "Basic - N1",
+            "description": "Basic hg ordege rhgh ẻ ghoe rgioer jg e"
+          }
+        ]
+      },
+      {
+        "id": "c87574cb-9396-4722-084e-08da275e4080",
+        "type": "Basic",
+        "imagePath": "https://ohmidas-test.bmbsoft.com.vn:5001/images/06a9cbb3-b911-4b62-a150-e51e2c3bff10/amico.png",
+        "lastLearnedDate": "0001-01-01T00:00:00",
+        "learnedTime": "00:00:00",
+        "courseTranslations": [
+          {
+            "language": {
+              "code": "vi",
+              "name": "Vietnamese"
+            },
+            "name": "Test 4",
+            "description": ""
+          },
+          {
+            "language": {
+              "code": "ja",
+              "name": "Japanese"
+            },
+            "name": "TTTT",
+            "description": ""
+          },
+          {
+            "language": {
+              "code": "en",
+              "name": "English"
+            },
+            "name": "ssss",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "id": "b6393fe5-5b98-4ada-084f-08da275e4080",
+        "type": "JLPT",
+        "imagePath": "https://ohmidas-test.bmbsoft.com.vn:5001/images/62d0ec84-e6be-4ddd-8d24-2910d7b1a117/image 11.png",
+        "lastLearnedDate": "0001-01-01T00:00:00",
+        "learnedTime": "00:00:00",
+        "courseTranslations": [
+          {
+            "language": {
+              "code": "vi",
+              "name": "Vietnamese"
+            },
+            "name": "Test 5",
+            "description": "Test 5"
+          },
+          {
+            "language": {
+              "code": "ja",
+              "name": "Japanese"
+            },
+            "name": "",
+            "description": ""
+          },
+          {
+            "language": {
+              "code": "en",
+              "name": "English"
+            },
+            "name": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "statusCode": 200,
+  "errorType": "Success",
+  "errorMessage": "Success"
+}

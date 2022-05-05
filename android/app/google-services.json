@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "665850661948",
+    "project_id": "ohmidas-bmbsoft",
+    "storage_bucket": "ohmidas-bmbsoft.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665850661948:android:f22d886506387d84520739",
+        "android_client_info": {
+          "package_name": "ohmidas.bmbsoft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665850661948-nvb27at39bv0esbeombl3eihtje2msbq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ohmidas.bmbsoft",
+            "certificate_hash": "7958366b5bd8d178dfe29c6231075c8eeff364d8"
+          }
+        },
+        {
+          "client_id": "665850661948-ntnd4ast0giq5b36trj4e81tdg9drrqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY8QNVGGle9dyLeFbmZPcorArdyRNL5Nc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665850661948-ntnd4ast0giq5b36trj4e81tdg9drrqf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "665850661948-kign2089lt7ig4ls2f4d801joop2jdmp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ohmidas.bmbsoft"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
